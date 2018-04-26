@@ -1,0 +1,682 @@
+ ucl
+
+ Timestamp is 5ae09486 (Wed Apr 25 22:45:26 2018)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00008e80H .text$mn                CODE
+ 0001:00008e80 00000012H .text$mn$00             CODE
+ 0001:00008e92 00000081H .text$x                 CODE
+ 0002:00000000 00000128H .idata$5                DATA
+ 0002:00000128 00000010H .00cfg                  DATA
+ 0002:00000138 00000008H .CRT$XCA                DATA
+ 0002:00000140 00000008H .CRT$XCZ                DATA
+ 0002:00000148 00000008H .CRT$XIA                DATA
+ 0002:00000150 00000008H .CRT$XIZ                DATA
+ 0002:00000158 00000008H .CRT$XPA                DATA
+ 0002:00000160 00000008H .CRT$XPZ                DATA
+ 0002:00000168 00000008H .CRT$XTA                DATA
+ 0002:00000170 00000010H .CRT$XTZ                DATA
+ 0002:00000180 000009b4H .rdata                  DATA
+ 0002:00000b34 0000022cH .rdata$zzzdbg           DATA
+ 0002:00000d60 00000008H .rtc$IAA                DATA
+ 0002:00000d68 00000008H .rtc$IZZ                DATA
+ 0002:00000d70 00000008H .rtc$TAA                DATA
+ 0002:00000d78 00000008H .rtc$TZZ                DATA
+ 0002:00000d80 00000460H .xdata                  DATA
+ 0002:000011e0 000006b4H .edata                  DATA
+ 0002:00001894 00000050H .idata$2                DATA
+ 0002:000018e4 00000014H .idata$3                DATA
+ 0002:000018f8 00000128H .idata$4                DATA
+ 0002:00001a20 0000030aH .idata$6                DATA
+ 0003:00000000 00000060H .data                   DATA
+ 0003:00000060 00000610H .bss                    DATA
+ 0004:00000000 0000057cH .pdata                  DATA
+ 0005:00000000 00000010H .gfids$y                DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
+ 0000:00000100       __guard_flags              0000000000000100     <absolute>
+ 0000:00000000       __ImageBase                0000000180000000     <linker-defined>
+ 0001:00000020       ucl_alloc                  0000000180001020 f   alloc.obj
+ 0001:00000050       ucl_free                   0000000180001050 f   alloc.obj
+ 0001:00000060       ucl_get_malloc_hooks       0000000180001060 f   alloc.obj
+ 0001:00000080       ucl_malloc                 0000000180001080 f   alloc.obj
+ 0001:00000090       ucl_set_malloc_hooks       0000000180001090 f   alloc.obj
+ 0001:000006e0       ucl_nrv2b_99_compress      00000001800016e0 f   n2b_99.obj
+ 0001:00000dc0       ucl_nrv2b_decompress_8     0000000180001dc0 f   n2b_d.obj
+ 0001:00000fb0       ucl_nrv2b_decompress_le16  0000000180001fb0 f   n2b_d.obj
+ 0001:00001250       ucl_nrv2b_decompress_le32  0000000180002250 f   n2b_d.obj
+ 0001:00001460       ucl_nrv2b_decompress_safe_8 0000000180002460 f   n2b_ds.obj
+ 0001:000016e0       ucl_nrv2b_decompress_safe_le16 00000001800026e0 f   n2b_ds.obj
+ 0001:00001a20       ucl_nrv2b_decompress_safe_le32 0000000180002a20 f   n2b_ds.obj
+ 0001:00001cd0       ucl_nrv2b_test_overlap_8   0000000180002cd0 f   n2b_to.obj
+ 0001:00001f30       ucl_nrv2b_test_overlap_le16 0000000180002f30 f   n2b_to.obj
+ 0001:00002250       ucl_nrv2b_test_overlap_le32 0000000180003250 f   n2b_to.obj
+ 0001:00002cf0       ucl_nrv2d_99_compress      0000000180003cf0 f   n2d_99.obj
+ 0001:000033d0       ucl_nrv2d_decompress_8     00000001800043d0 f   n2d_d.obj
+ 0001:00003600       ucl_nrv2d_decompress_le16  0000000180004600 f   n2d_d.obj
+ 0001:000038f0       ucl_nrv2d_decompress_le32  00000001800048f0 f   n2d_d.obj
+ 0001:00003b50       ucl_nrv2d_decompress_safe_8 0000000180004b50 f   n2d_ds.obj
+ 0001:00003e10       ucl_nrv2d_decompress_safe_le16 0000000180004e10 f   n2d_ds.obj
+ 0001:00004190       ucl_nrv2d_decompress_safe_le32 0000000180005190 f   n2d_ds.obj
+ 0001:00004490       ucl_nrv2d_test_overlap_8   0000000180005490 f   n2d_to.obj
+ 0001:00004730       ucl_nrv2d_test_overlap_le16 0000000180005730 f   n2d_to.obj
+ 0001:00004a90       ucl_nrv2d_test_overlap_le32 0000000180005a90 f   n2d_to.obj
+ 0001:000053f0       ucl_nrv2e_99_compress      00000001800063f0 f   n2e_99.obj
+ 0001:00005ad0       ucl_nrv2e_decompress_8     0000000180006ad0 f   n2e_d.obj
+ 0001:00005d70       ucl_nrv2e_decompress_le16  0000000180006d70 f   n2e_d.obj
+ 0001:000060e0       ucl_nrv2e_decompress_le32  00000001800070e0 f   n2e_d.obj
+ 0001:00006390       ucl_nrv2e_decompress_safe_8 0000000180007390 f   n2e_ds.obj
+ 0001:000066c0       ucl_nrv2e_decompress_safe_le16 00000001800076c0 f   n2e_ds.obj
+ 0001:00006a90       ucl_nrv2e_decompress_safe_le32 0000000180007a90 f   n2e_ds.obj
+ 0001:00006de0       ucl_nrv2e_test_overlap_8   0000000180007de0 f   n2e_to.obj
+ 0001:000070e0       ucl_nrv2e_test_overlap_le16 00000001800080e0 f   n2e_to.obj
+ 0001:000074c0       ucl_nrv2e_test_overlap_le32 00000001800084c0 f   n2e_to.obj
+ 0001:000077e0       ucl_crc32                  00000001800087e0 f   ucl_crc.obj
+ 0001:000078f0       ucl_get_crc32_table        00000001800088f0 f   ucl_crc.obj
+ 0001:00007900       __ucl_init2                0000000180008900 f   ucl_init.obj
+ 0001:00007990       _ucl_config_check          0000000180008990 f   ucl_init.obj
+ 0001:00007d50       __ucl_align_gap            0000000180008d50 f   ucl_ptr.obj
+ 0001:00007d70       __ucl_ptr_linear           0000000180008d70 f   ucl_ptr.obj
+ 0001:00007d80       ucl_memcmp                 0000000180008d80 f   ucl_str.obj
+ 0001:00007d90       ucl_memcpy                 0000000180008d90 f   ucl_str.obj
+ 0001:00007db0       ucl_memmove                0000000180008db0 f   ucl_str.obj
+ 0001:00007dc0       ucl_memset                 0000000180008dc0 f   ucl_str.obj
+ 0001:00007de0       ucl_version_date           0000000180008de0 f   ucl_util.obj
+ 0001:00007de0       _ucl_version_date          0000000180008de0 f   ucl_util.obj
+ 0001:00007df0       _ucl_version_string        0000000180008df0 f   ucl_util.obj
+ 0001:00007df0       ucl_version_string         0000000180008df0 f   ucl_util.obj
+ 0001:00007e00       ucl_adler32                0000000180008e00 f   ucl_util.obj
+ 0001:00007f60       ucl_assert                 0000000180008f60 f   ucl_util.obj
+ 0001:00007f70       ucl_copyright              0000000180008f70 f   ucl_util.obj
+ 0001:00007f80       ucl_version                0000000180008f80 f   ucl_util.obj
+ 0001:00007f88       __GSHandlerCheck           0000000180008f88 f   MSVCRT:_gshandler_.obj
+ 0001:00007fa8       __GSHandlerCheckCommon     0000000180008fa8 f   MSVCRT:_gshandler_.obj
+ 0001:00008020       __security_check_cookie    0000000180009020 f   MSVCRT:_amdsecgs_.obj
+ 0001:00008390       _DllMainCRTStartup         0000000180009390 f   MSVCRT:dll_dllmain.obj
+ 0001:000083d0       __raise_securityfailure    00000001800093d0 f   MSVCRT:gs_report.obj
+ 0001:00008404       __report_gsfailure         0000000180009404 f   MSVCRT:gs_report.obj
+ 0001:0000854c       __scrt_acquire_startup_lock 000000018000954c f   MSVCRT:utility.obj
+ 0001:00008588       __scrt_dllmain_after_initialize_c 0000000180009588 f   MSVCRT:utility.obj
+ 0001:000085bc       __scrt_dllmain_before_initialize_c 00000001800095bc f   MSVCRT:utility.obj
+ 0001:000085d4       __scrt_dllmain_crt_thread_attach 00000001800095d4 f   MSVCRT:utility.obj
+ 0001:000085fc       __scrt_dllmain_crt_thread_detach 00000001800095fc f   MSVCRT:utility.obj
+ 0001:00008614       __scrt_dllmain_exception_filter 0000000180009614 f   MSVCRT:utility.obj
+ 0001:00008678       __scrt_dllmain_uninitialize_c 0000000180009678 f   MSVCRT:utility.obj
+ 0001:000086a8       __scrt_dllmain_uninitialize_critical 00000001800096a8 f   MSVCRT:utility.obj
+ 0001:000086bc       __scrt_initialize_crt      00000001800096bc f   MSVCRT:utility.obj
+ 0001:00008708       __scrt_initialize_onexit_tables 0000000180009708 f   MSVCRT:utility.obj
+ 0001:000087d4       __scrt_is_nonwritable_in_current_image 00000001800097d4 f   MSVCRT:utility.obj
+ 0001:00008870       __scrt_release_startup_lock 0000000180009870 f   MSVCRT:utility.obj
+ 0001:00008894       __scrt_uninitialize_crt    0000000180009894 f   MSVCRT:utility.obj
+ 0001:000088c0       _onexit                    00000001800098c0 f   MSVCRT:utility.obj
+ 0001:00008910       atexit                     0000000180009910 f   MSVCRT:utility.obj
+ 0001:00008928       __security_init_cookie     0000000180009928 f   MSVCRT:gs_support.obj
+ 0001:000089d4       DllMain                    00000001800099d4 f   MSVCRT:dll_dllmain_stub.obj
+ 0001:000089f8       ?__scrt_initialize_type_info@@YAXXZ 00000001800099f8 f   MSVCRT:tncleanup.obj
+ 0001:00008a08       ?__scrt_uninitialize_type_info@@YAXXZ 0000000180009a08 f   MSVCRT:tncleanup.obj
+ 0001:00008a14       __local_stdio_printf_options 0000000180009a14 f i MSVCRT:default_local_stdio_options.obj
+ 0001:00008a1c       __local_stdio_scanf_options 0000000180009a1c f i MSVCRT:default_local_stdio_options.obj
+ 0001:00008a24       __scrt_initialize_default_local_stdio_options 0000000180009a24 f   MSVCRT:default_local_stdio_options.obj
+ 0001:00008a40       __scrt_get_dyn_tls_init_callback 0000000180009a40 f   MSVCRT:dyn_tls_init.obj
+ 0001:00008a48       __scrt_fastfail            0000000180009a48 f   MSVCRT:utility_desktop.obj
+ 0001:00008b90       _RTC_Initialize            0000000180009b90 f   MSVCRT:_initsect_.obj
+ 0001:00008bdc       _RTC_Terminate             0000000180009bdc f   MSVCRT:_initsect_.obj
+ 0001:00008c28       _guard_check_icall         0000000180009c28 f i MSVCRT:checkcfg.obj
+ 0001:00008c30       __isa_available_init       0000000180009c30 f   MSVCRT:_cpu_disp_.obj
+ 0001:00008df8       _get_startup_argv_mode     0000000180009df8 f   MSVCRT:argv_mode.obj
+ 0001:00008e00       __scrt_is_ucrt_dll_in_use  0000000180009e00 f   MSVCRT:ucrt_detection.obj
+ 0001:00008e0c       _guard_check_icall_nop     0000000180009e0c f i MSVCRT:guard_support.obj
+ 0001:00008e10       IsProcessorFeaturePresent  0000000180009e10 f   kernel32:KERNEL32.dll
+ 0001:00008e16       memcpy                     0000000180009e16 f   vcruntime:VCRUNTIME140.dll
+ 0001:00008e1c       memset                     0000000180009e1c f   vcruntime:VCRUNTIME140.dll
+ 0001:00008e22       memcmp                     0000000180009e22 f   vcruntime:VCRUNTIME140.dll
+ 0001:00008e28       __C_specific_handler       0000000180009e28 f   vcruntime:VCRUNTIME140.dll
+ 0001:00008e2e       __std_type_info_destroy_list 0000000180009e2e f   vcruntime:VCRUNTIME140.dll
+ 0001:00008e34       _initterm                  0000000180009e34 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00008e3a       _initterm_e                0000000180009e3a f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00008e40       _seh_filter_dll            0000000180009e40 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00008e46       _configure_narrow_argv     0000000180009e46 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00008e4c       _initialize_narrow_environment 0000000180009e4c f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00008e52       _initialize_onexit_table   0000000180009e52 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00008e58       _register_onexit_function  0000000180009e58 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00008e5e       _execute_onexit_table      0000000180009e5e f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00008e64       _crt_atexit                0000000180009e64 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00008e6a       _cexit                     0000000180009e6a f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00008e70       __scrt_stub_for_acrt_initialize 0000000180009e70 f   MSVCRT:ucrt_stubs.obj
+ 0001:00008e70       __acrt_uninitialize        0000000180009e70 f   MSVCRT:ucrt_stubs.obj
+ 0001:00008e70       __acrt_thread_attach       0000000180009e70 f   MSVCRT:ucrt_stubs.obj
+ 0001:00008e70       __acrt_initialize          0000000180009e70 f   MSVCRT:ucrt_stubs.obj
+ 0001:00008e70       __acrt_thread_detach       0000000180009e70 f   MSVCRT:ucrt_stubs.obj
+ 0001:00008e70       __vcrt_uninitialize        0000000180009e70 f   MSVCRT:ucrt_stubs.obj
+ 0001:00008e70       __scrt_stub_for_acrt_thread_detach 0000000180009e70 f   MSVCRT:ucrt_stubs.obj
+ 0001:00008e70       __vcrt_thread_detach       0000000180009e70 f   MSVCRT:ucrt_stubs.obj
+ 0001:00008e70       __scrt_stub_for_acrt_thread_attach 0000000180009e70 f   MSVCRT:ucrt_stubs.obj
+ 0001:00008e70       __vcrt_thread_attach       0000000180009e70 f   MSVCRT:ucrt_stubs.obj
+ 0001:00008e70       __acrt_uninitialize_critical 0000000180009e70 f   MSVCRT:ucrt_stubs.obj
+ 0001:00008e70       __vcrt_uninitialize_critical 0000000180009e70 f   MSVCRT:ucrt_stubs.obj
+ 0001:00008e70       __scrt_stub_for_acrt_uninitialize_critical 0000000180009e70 f   MSVCRT:ucrt_stubs.obj
+ 0001:00008e70       __scrt_stub_for_acrt_uninitialize 0000000180009e70 f   MSVCRT:ucrt_stubs.obj
+ 0001:00008e70       __vcrt_initialize          0000000180009e70 f   MSVCRT:ucrt_stubs.obj
+ 0001:00008e74       _is_c_termination_complete 0000000180009e74 f   MSVCRT:ucrt_stubs.obj
+ 0001:00008e74       __scrt_stub_for_is_c_termination_complete 0000000180009e74 f   MSVCRT:ucrt_stubs.obj
+ 0001:00008e90       _guard_dispatch_icall_nop  0000000180009e90 f   MSVCRT:_guard_dispatch_.obj
+ 0002:00000000       __imp_RtlCaptureContext    000000018000a000     kernel32:KERNEL32.dll
+ 0002:00000008       __imp_RtlLookupFunctionEntry 000000018000a008     kernel32:KERNEL32.dll
+ 0002:00000010       __imp_RtlVirtualUnwind     000000018000a010     kernel32:KERNEL32.dll
+ 0002:00000018       __imp_UnhandledExceptionFilter 000000018000a018     kernel32:KERNEL32.dll
+ 0002:00000020       __imp_SetUnhandledExceptionFilter 000000018000a020     kernel32:KERNEL32.dll
+ 0002:00000028       __imp_GetCurrentProcess    000000018000a028     kernel32:KERNEL32.dll
+ 0002:00000030       __imp_TerminateProcess     000000018000a030     kernel32:KERNEL32.dll
+ 0002:00000038       __imp_IsProcessorFeaturePresent 000000018000a038     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_QueryPerformanceCounter 000000018000a040     kernel32:KERNEL32.dll
+ 0002:00000048       __imp_GetCurrentProcessId  000000018000a048     kernel32:KERNEL32.dll
+ 0002:00000050       __imp_GetCurrentThreadId   000000018000a050     kernel32:KERNEL32.dll
+ 0002:00000058       __imp_GetSystemTimeAsFileTime 000000018000a058     kernel32:KERNEL32.dll
+ 0002:00000060       __imp_DisableThreadLibraryCalls 000000018000a060     kernel32:KERNEL32.dll
+ 0002:00000068       __imp_InitializeSListHead  000000018000a068     kernel32:KERNEL32.dll
+ 0002:00000070       __imp_IsDebuggerPresent    000000018000a070     kernel32:KERNEL32.dll
+ 0002:00000078       \177KERNEL32_NULL_THUNK_DATA 000000018000a078     kernel32:KERNEL32.dll
+ 0002:00000080       __imp_memcpy               000000018000a080     vcruntime:VCRUNTIME140.dll
+ 0002:00000088       __imp_memset               000000018000a088     vcruntime:VCRUNTIME140.dll
+ 0002:00000090       __imp_memmove              000000018000a090     vcruntime:VCRUNTIME140.dll
+ 0002:00000098       __imp_memcmp               000000018000a098     vcruntime:VCRUNTIME140.dll
+ 0002:000000a0       __imp___C_specific_handler 000000018000a0a0     vcruntime:VCRUNTIME140.dll
+ 0002:000000a8       __imp___std_type_info_destroy_list 000000018000a0a8     vcruntime:VCRUNTIME140.dll
+ 0002:000000b0       \177VCRUNTIME140_NULL_THUNK_DATA 000000018000a0b0     vcruntime:VCRUNTIME140.dll
+ 0002:000000b8       __imp_free                 000000018000a0b8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000c0       __imp_malloc               000000018000a0c0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000c8       \177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 000000018000a0c8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000d0       __imp__initterm_e          000000018000a0d0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000d8       __imp__seh_filter_dll      000000018000a0d8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000e0       __imp__configure_narrow_argv 000000018000a0e0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000e8       __imp__initialize_narrow_environment 000000018000a0e8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000f0       __imp__initterm            000000018000a0f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000f8       __imp__register_onexit_function 000000018000a0f8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000100       __imp__execute_onexit_table 000000018000a100     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000108       __imp__crt_atexit          000000018000a108     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000110       __imp__cexit               000000018000a110     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000118       __imp__initialize_onexit_table 000000018000a118     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000120       \177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 000000018000a120     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000128       __guard_check_icall_fptr   000000018000a128     MSVCRT:guard_support.obj
+ 0002:00000130       __guard_dispatch_icall_fptr 000000018000a130     MSVCRT:guard_support.obj
+ 0002:00000138       __xc_a                     000000018000a138     MSVCRT:initializers.obj
+ 0002:00000140       __xc_z                     000000018000a140     MSVCRT:initializers.obj
+ 0002:00000148       __xi_a                     000000018000a148     MSVCRT:initializers.obj
+ 0002:00000150       __xi_z                     000000018000a150     MSVCRT:initializers.obj
+ 0002:00000158       __xp_a                     000000018000a158     MSVCRT:initializers.obj
+ 0002:00000160       __xp_z                     000000018000a160     MSVCRT:initializers.obj
+ 0002:00000168       __xt_a                     000000018000a168     MSVCRT:initializers.obj
+ 0002:00000170       __xt_z                     000000018000a170     MSVCRT:initializers.obj
+ 0002:000008e0       __xmm@00000003000000020000000100000000 000000018000a8e0     ucl_init.obj
+ 0002:000008f0       __xmm@00000003000000030000000300000003 000000018000a8f0     ucl_init.obj
+ 0002:00000a44       ??_C@_04DFHBMBHJ@1?403?$AA@ 000000018000aa44     ucl_util.obj
+ 0002:00000a50       ??_C@_0M@EEINAPKJ@Jul?520?52004?$AA@ 000000018000aa50     ucl_util.obj
+ 0002:00000a60       _pRawDllMain               000000018000aa60     MSVCRT:dll_dllmain.obj
+ 0002:00000a60       _pDefaultRawDllMain        000000018000aa60     MSVCRT:dll_dllmain.obj
+ 0002:00000aa0       _load_config_used          000000018000aaa0     MSVCRT:loadcfg.obj
+ 0002:00000d60       __rtc_iaa                  000000018000ad60     MSVCRT:_initsect_.obj
+ 0002:00000d68       __rtc_izz                  000000018000ad68     MSVCRT:_initsect_.obj
+ 0002:00000d70       __rtc_taa                  000000018000ad70     MSVCRT:_initsect_.obj
+ 0002:00000d78       __rtc_tzz                  000000018000ad78     MSVCRT:_initsect_.obj
+ 0002:00001894       __IMPORT_DESCRIPTOR_KERNEL32 000000018000b894     kernel32:KERNEL32.dll
+ 0002:000018a8       __IMPORT_DESCRIPTOR_VCRUNTIME140 000000018000b8a8     vcruntime:VCRUNTIME140.dll
+ 0002:000018bc       __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 000000018000b8bc     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000018d0       __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 000000018000b8d0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000018e4       __NULL_IMPORT_DESCRIPTOR   000000018000b8e4     kernel32:KERNEL32.dll
+ 0003:00000020       __security_cookie          000000018000c020     MSVCRT:gs_cookie.obj
+ 0003:00000028       __security_cookie_complement 000000018000c028     MSVCRT:gs_cookie.obj
+ 0003:00000030       __scrt_native_dllmain_reason 000000018000c030     MSVCRT:utility.obj
+ 0003:00000038       __isa_available            000000018000c038     MSVCRT:_cpu_disp_.obj
+ 0003:0000003c       __isa_enabled              000000018000c03c     MSVCRT:_cpu_disp_.obj
+ 0003:00000040       __memcpy_nt_iters          000000018000c040     MSVCRT:_cpu_disp_.obj
+ 0003:00000050       __scrt_ucrt_dll_is_in_use  000000018000c050     MSVCRT:ucrt_stubs.obj
+ 0003:00000060       __ucl_init_done            000000018000c060     ucl_init.obj
+ 0003:000005f0       __scrt_current_native_startup_state 000000018000c5f0     MSVCRT:utility.obj
+ 0003:000005f8       __scrt_native_startup_lock 000000018000c5f8     MSVCRT:utility.obj
+ 0003:00000640       ?__type_info_root_node@@3U__type_info_node@@A 000000018000c640     MSVCRT:tncleanup.obj
+ 0003:00000650       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 000000018000c650     MSVCRT:default_local_stdio_options.obj
+ 0003:00000658       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 000000018000c658     MSVCRT:default_local_stdio_options.obj
+ 0003:00000660       __scrt_debugger_hook_flag  000000018000c660     MSVCRT:utility_desktop.obj
+ 0003:00000664       __favor                    000000018000c664     MSVCRT:_cpu_disp_.obj
+ 0003:00000668       __dyn_tls_init_callback    000000018000c668     <common>
+
+ entry point at        0001:00008390
+
+ Static symbols
+
+ 0001:00000000       ucl_malloc_internal        0000000180001000 f   alloc.obj
+ 0001:00000010       ucl_free_internal          0000000180001010 f   alloc.obj
+ 0001:000000c0       bbFlushBits                00000001800010c0 f   n2d_99.obj
+ 0001:000000c0       bbFlushBits                00000001800010c0 f   n2e_99.obj
+ 0001:000000c0       bbFlushBits                00000001800010c0 f   n2b_99.obj
+ 0001:000001a0       bbPutBit                   00000001800011a0 f   n2e_99.obj
+ 0001:000001a0       bbPutBit                   00000001800011a0 f   n2b_99.obj
+ 0001:000001a0       bbPutBit                   00000001800011a0 f   n2d_99.obj
+ 0001:00000230       code_match                 0000000180001230 f   n2b_99.obj
+ 0001:00000350       code_run                   0000000180001350 f   n2b_99.obj
+ 0001:00000350       code_run                   0000000180001350 f   n2e_99.obj
+ 0001:00000350       code_run                   0000000180001350 f   n2d_99.obj
+ 0001:00000430       len_of_coded_match         0000000180001430 f   n2b_99.obj
+ 0001:000004a0       swd_findbest               00000001800014a0 f   n2d_99.obj
+ 0001:000004a0       swd_findbest               00000001800014a0 f   n2b_99.obj
+ 0001:000004a0       swd_findbest               00000001800014a0 f   n2e_99.obj
+ 0001:00000610       swd_insertdict             0000000180001610 f   n2e_99.obj
+ 0001:00000610       swd_insertdict             0000000180001610 f   n2b_99.obj
+ 0001:00000610       swd_insertdict             0000000180001610 f   n2d_99.obj
+ 0001:000024c0       bbConfig                   00000001800034c0 f   n2d_99.obj
+ 0001:000024c0       bbConfig                   00000001800034c0 f   n2e_99.obj
+ 0001:000024c0       bbConfig                   00000001800034c0 f   n2b_99.obj
+ 0001:00002510       code_match                 0000000180003510 f   n2d_99.obj
+ 0001:00002630       code_prefix_ss11           0000000180003630 f   n2b_99.obj
+ 0001:00002630       code_prefix_ss11           0000000180003630 f   n2e_99.obj
+ 0001:00002630       code_prefix_ss11           0000000180003630 f   n2d_99.obj
+ 0001:00002790       code_prefix_ss12           0000000180003790 f   n2e_99.obj
+ 0001:00002790       code_prefix_ss12           0000000180003790 f   n2d_99.obj
+ 0001:00002970       find_match                 0000000180003970 f   n2e_99.obj
+ 0001:00002970       find_match                 0000000180003970 f   n2d_99.obj
+ 0001:00002970       find_match                 0000000180003970 f   n2b_99.obj
+ 0001:00002a60       len_of_coded_match         0000000180003a60 f   n2d_99.obj
+ 0001:00002ae0       swd_exit                   0000000180003ae0 f   n2e_99.obj
+ 0001:00002ae0       swd_exit                   0000000180003ae0 f   n2d_99.obj
+ 0001:00002ae0       swd_exit                   0000000180003ae0 f   n2b_99.obj
+ 0001:00002b70       swd_getbyte                0000000180003b70 f   n2d_99.obj
+ 0001:00002b70       swd_getbyte                0000000180003b70 f   n2e_99.obj
+ 0001:00002b70       swd_getbyte                0000000180003b70 f   n2b_99.obj
+ 0001:00002bf0       swd_search                 0000000180003bf0 f   n2b_99.obj
+ 0001:00002bf0       swd_search                 0000000180003bf0 f   n2e_99.obj
+ 0001:00002bf0       swd_search                 0000000180003bf0 f   n2d_99.obj
+ 0001:00004d50       code_match                 0000000180005d50 f   n2e_99.obj
+ 0001:00004e90       len_of_coded_match         0000000180005e90 f   n2e_99.obj
+ 0001:00004f10       swd_accept                 0000000180005f10 f   n2b_99.obj
+ 0001:00004f10       swd_accept                 0000000180005f10 f   n2d_99.obj
+ 0001:00004f10       swd_accept                 0000000180005f10 f   n2e_99.obj
+ 0001:000050c0       swd_init                   00000001800060c0 f   n2e_99.obj
+ 0001:000050c0       swd_init                   00000001800060c0 f   n2d_99.obj
+ 0001:000050c0       swd_init                   00000001800060c0 f   n2b_99.obj
+ 0001:00005360       swd_remove_node            0000000180006360 f   n2b_99.obj
+ 0001:00005360       swd_remove_node            0000000180006360 f   n2d_99.obj
+ 0001:00005360       swd_remove_node            0000000180006360 f   n2e_99.obj
+ 0001:00007c00       ptr_check                  0000000180008c00 f   ucl_init.obj
+ 0001:00008010       $$000000                   0000000180009010     MSVCRT:_amdsecgs_.obj
+ 0001:00008044       ?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180009044 f   MSVCRT:dll_dllmain.obj
+ 0001:00008094       ?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 0000000180009094 f   MSVCRT:dll_dllmain.obj
+ 0001:000081c0       ?dllmain_crt_process_detach@@YAH_N@Z 00000001800091c0 f   MSVCRT:dll_dllmain.obj
+ 0001:00008244       ?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180009244 f   MSVCRT:dll_dllmain.obj
+ 0001:0000833c       ?dllmain_raw@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000933c f   MSVCRT:dll_dllmain.obj
+ 0001:000084d8       capture_previous_context   00000001800094d8 f   MSVCRT:gs_report.obj
+ 0001:00008e80       $$000000                   0000000180009e80     MSVCRT:_guard_dispatch_.obj
+ 0001:00008e92       ?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 0000000180009e92 f   MSVCRT:dll_dllmain.obj
+ 0001:00008ea9       ?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 0000000180009ea9 f   MSVCRT:dll_dllmain.obj
+ 0001:00008ec5       ?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 0000000180009ec5 f   MSVCRT:dll_dllmain.obj
+ 0001:00008efb       __scrt_is_nonwritable_in_current_image$filt$0 0000000180009efb f   MSVCRT:utility.obj
+ 0002:00000180       ?swd_config@?1??ucl_nrv2b_99_compress@@9@9 000000018000a180     n2b_99.obj
+ 0002:000002a0       ?swd_config@?1??ucl_nrv2d_99_compress@@9@9 000000018000a2a0     n2d_99.obj
+ 0002:000003c0       ?swd_config@?1??ucl_nrv2e_99_compress@@9@9 000000018000a3c0     n2e_99.obj
+ 0002:000004e0       __ucl_crc32_table          000000018000a4e0     ucl_crc.obj
+ 0002:00000900       __ucl_copyright            000000018000a900     ucl_util.obj
+ 0002:00000a68       GS_ExceptionPointers       000000018000aa68     MSVCRT:gs_report.obj
+ 0002:00000d80       $chain$0$ucl_nrv2b_99_compress 000000018000ad80     n2b_99.obj
+ 0002:00000d94       $chain$2$ucl_nrv2b_99_compress 000000018000ad94     n2b_99.obj
+ 0002:00000dac       $chain$3$ucl_nrv2b_99_compress 000000018000adac     n2b_99.obj
+ 0002:00000dbc       $chain$8$ucl_nrv2b_99_compress 000000018000adbc     n2b_99.obj
+ 0002:00000dbc       $chain$4$ucl_nrv2b_99_compress 000000018000adbc     n2b_99.obj
+ 0002:00000dcc       $chain$5$ucl_nrv2b_99_compress 000000018000adcc     n2b_99.obj
+ 0002:00000de8       $chain$6$ucl_nrv2b_99_compress 000000018000ade8     n2b_99.obj
+ 0002:00000dfc       $chain$7$ucl_nrv2b_99_compress 000000018000adfc     n2b_99.obj
+ 0002:00000e0c       $unwind$swd_remove_node    000000018000ae0c     n2b_99.obj
+ 0002:00000e0c       $unwind$swd_insertdict     000000018000ae0c     n2d_99.obj
+ 0002:00000e0c       $unwind$swd_remove_node    000000018000ae0c     n2e_99.obj
+ 0002:00000e0c       $unwind$swd_remove_node    000000018000ae0c     n2d_99.obj
+ 0002:00000e0c       $unwind$swd_insertdict     000000018000ae0c     n2b_99.obj
+ 0002:00000e0c       $unwind$swd_insertdict     000000018000ae0c     n2e_99.obj
+ 0002:00000e18       $unwind$ucl_nrv2e_test_overlap_le32 000000018000ae18     n2e_to.obj
+ 0002:00000e18       $unwind$ucl_nrv2b_test_overlap_8 000000018000ae18     n2b_to.obj
+ 0002:00000e18       $unwind$ucl_nrv2d_test_overlap_le32 000000018000ae18     n2d_to.obj
+ 0002:00000e18       $unwind$ucl_nrv2b_test_overlap_le32 000000018000ae18     n2b_to.obj
+ 0002:00000e18       $unwind$swd_search         000000018000ae18     n2d_99.obj
+ 0002:00000e18       $unwind$ucl_nrv2d_decompress_le16 000000018000ae18     n2d_d.obj
+ 0002:00000e18       $unwind$ucl_nrv2b_decompress_le32 000000018000ae18     n2b_d.obj
+ 0002:00000e18       $unwind$ucl_nrv2d_decompress_le32 000000018000ae18     n2d_d.obj
+ 0002:00000e18       $unwind$ucl_nrv2b_decompress_le16 000000018000ae18     n2b_d.obj
+ 0002:00000e18       $unwind$ucl_nrv2b_decompress_8 000000018000ae18     n2b_d.obj
+ 0002:00000e18       $unwind$swd_search         000000018000ae18     n2e_99.obj
+ 0002:00000e18       $unwind$swd_search         000000018000ae18     n2b_99.obj
+ 0002:00000e18       $unwind$ucl_nrv2e_decompress_le32 000000018000ae18     n2e_d.obj
+ 0002:00000e18       $unwind$ucl_nrv2d_decompress_8 000000018000ae18     n2d_d.obj
+ 0002:00000e30       $unwind$ucl_nrv2d_decompress_safe_le16 000000018000ae30     n2d_ds.obj
+ 0002:00000e30       $unwind$ucl_nrv2b_decompress_safe_le16 000000018000ae30     n2b_ds.obj
+ 0002:00000e30       $unwind$ucl_nrv2b_decompress_safe_8 000000018000ae30     n2b_ds.obj
+ 0002:00000e30       $unwind$ucl_nrv2e_decompress_safe_le16 000000018000ae30     n2e_ds.obj
+ 0002:00000e30       $unwind$ucl_nrv2e_decompress_safe_8 000000018000ae30     n2e_ds.obj
+ 0002:00000e30       $unwind$ucl_nrv2d_decompress_safe_8 000000018000ae30     n2d_ds.obj
+ 0002:00000e4c       $unwind$ucl_nrv2e_99_compress 000000018000ae4c     n2e_99.obj
+ 0002:00000e4c       $unwind$ucl_nrv2b_99_compress 000000018000ae4c     n2b_99.obj
+ 0002:00000e4c       $unwind$ucl_nrv2d_99_compress 000000018000ae4c     n2d_99.obj
+ 0002:00000e64       $chain$0$ucl_nrv2d_99_compress 000000018000ae64     n2d_99.obj
+ 0002:00000e78       $chain$2$ucl_nrv2d_99_compress 000000018000ae78     n2d_99.obj
+ 0002:00000e90       $chain$3$ucl_nrv2d_99_compress 000000018000ae90     n2d_99.obj
+ 0002:00000ea0       $chain$5$ucl_nrv2d_99_compress 000000018000aea0     n2d_99.obj
+ 0002:00000ebc       $chain$6$ucl_nrv2d_99_compress 000000018000aebc     n2d_99.obj
+ 0002:00000ed0       $chain$7$ucl_nrv2d_99_compress 000000018000aed0     n2d_99.obj
+ 0002:00000ee0       $chain$4$ucl_nrv2d_99_compress 000000018000aee0     n2d_99.obj
+ 0002:00000ee0       $chain$8$ucl_nrv2d_99_compress 000000018000aee0     n2d_99.obj
+ 0002:00000ef0       $unwind$swd_exit           000000018000aef0     n2d_99.obj
+ 0002:00000ef0       $unwind$swd_findbest       000000018000aef0     n2d_99.obj
+ 0002:00000ef0       $unwind$swd_exit           000000018000aef0     n2b_99.obj
+ 0002:00000ef0       $unwind$swd_findbest       000000018000aef0     n2e_99.obj
+ 0002:00000ef0       $unwind$swd_findbest       000000018000aef0     n2b_99.obj
+ 0002:00000ef0       $unwind$swd_exit           000000018000aef0     n2e_99.obj
+ 0002:00000efc       $unwind$swd_init           000000018000aefc     n2d_99.obj
+ 0002:00000efc       $unwind$find_match         000000018000aefc     n2e_99.obj
+ 0002:00000efc       $unwind$swd_init           000000018000aefc     n2e_99.obj
+ 0002:00000efc       $unwind$find_match         000000018000aefc     n2d_99.obj
+ 0002:00000efc       $unwind$?dllmain_raw@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000aefc     MSVCRT:dll_dllmain.obj
+ 0002:00000efc       $unwind$code_match         000000018000aefc     n2d_99.obj
+ 0002:00000efc       $unwind$swd_init           000000018000aefc     n2b_99.obj
+ 0002:00000efc       $unwind$__scrt_dllmain_exception_filter 000000018000aefc     MSVCRT:utility.obj
+ 0002:00000efc       $unwind$code_match         000000018000aefc     n2e_99.obj
+ 0002:00000efc       $unwind$find_match         000000018000aefc     n2b_99.obj
+ 0002:00000f10       $unwind$__scrt_release_startup_lock 000000018000af10     MSVCRT:utility.obj
+ 0002:00000f10       $unwind$code_prefix_ss12   000000018000af10     n2e_99.obj
+ 0002:00000f10       $unwind$code_prefix_ss11   000000018000af10     n2b_99.obj
+ 0002:00000f10       $unwind$__scrt_uninitialize_crt 000000018000af10     MSVCRT:utility.obj
+ 0002:00000f10       $unwind$code_prefix_ss12   000000018000af10     n2d_99.obj
+ 0002:00000f10       $unwind$_onexit            000000018000af10     MSVCRT:utility.obj
+ 0002:00000f10       $unwind$ucl_memset         000000018000af10     ucl_str.obj
+ 0002:00000f10       $unwind$code_prefix_ss11   000000018000af10     n2e_99.obj
+ 0002:00000f10       $unwind$__scrt_initialize_crt 000000018000af10     MSVCRT:utility.obj
+ 0002:00000f10       $unwind$ucl_memcpy         000000018000af10     ucl_str.obj
+ 0002:00000f10       $unwind$__raise_securityfailure 000000018000af10     MSVCRT:gs_report.obj
+ 0002:00000f10       $unwind$code_prefix_ss11   000000018000af10     n2d_99.obj
+ 0002:00000f18       $unwind$ucl_nrv2d_decompress_safe_le32 000000018000af18     n2d_ds.obj
+ 0002:00000f18       $unwind$ucl_nrv2e_decompress_safe_le32 000000018000af18     n2e_ds.obj
+ 0002:00000f18       $unwind$ucl_nrv2b_decompress_safe_le32 000000018000af18     n2b_ds.obj
+ 0002:00000f34       $unwind$ucl_nrv2d_test_overlap_8 000000018000af34     n2d_to.obj
+ 0002:00000f4c       $unwind$ucl_nrv2b_test_overlap_le16 000000018000af4c     n2b_to.obj
+ 0002:00000f4c       $unwind$ucl_nrv2d_test_overlap_le16 000000018000af4c     n2d_to.obj
+ 0002:00000f4c       $unwind$ucl_nrv2e_test_overlap_le16 000000018000af4c     n2e_to.obj
+ 0002:00000f64       $chain$0$ucl_nrv2e_99_compress 000000018000af64     n2e_99.obj
+ 0002:00000f78       $chain$2$ucl_nrv2e_99_compress 000000018000af78     n2e_99.obj
+ 0002:00000f90       $chain$3$ucl_nrv2e_99_compress 000000018000af90     n2e_99.obj
+ 0002:00000fa0       $chain$4$ucl_nrv2e_99_compress 000000018000afa0     n2e_99.obj
+ 0002:00000fa0       $chain$8$ucl_nrv2e_99_compress 000000018000afa0     n2e_99.obj
+ 0002:00000fb0       $chain$5$ucl_nrv2e_99_compress 000000018000afb0     n2e_99.obj
+ 0002:00000fcc       $chain$6$ucl_nrv2e_99_compress 000000018000afcc     n2e_99.obj
+ 0002:00000fe0       $chain$7$ucl_nrv2e_99_compress 000000018000afe0     n2e_99.obj
+ 0002:00000ff0       $unwind$swd_accept         000000018000aff0     n2e_99.obj
+ 0002:00000ff0       $unwind$swd_accept         000000018000aff0     n2b_99.obj
+ 0002:00000ff0       $unwind$swd_accept         000000018000aff0     n2d_99.obj
+ 0002:00000ff0       $unwind$__GSHandlerCheckCommon 000000018000aff0     MSVCRT:_gshandler_.obj
+ 0002:00000ff8       $chain$0$swd_accept        000000018000aff8     n2b_99.obj
+ 0002:00000ff8       $chain$0$swd_accept        000000018000aff8     n2d_99.obj
+ 0002:00000ff8       $chain$0$swd_accept        000000018000aff8     n2e_99.obj
+ 0002:0000100c       $chain$1$swd_accept        000000018000b00c     n2b_99.obj
+ 0002:0000100c       $chain$1$swd_accept        000000018000b00c     n2e_99.obj
+ 0002:0000100c       $chain$1$swd_accept        000000018000b00c     n2d_99.obj
+ 0002:0000101c       $unwind$ucl_nrv2e_test_overlap_8 000000018000b01c     n2e_to.obj
+ 0002:0000101c       $unwind$ucl_nrv2e_decompress_8 000000018000b01c     n2e_d.obj
+ 0002:0000101c       $unwind$ucl_nrv2e_decompress_le16 000000018000b01c     n2e_d.obj
+ 0002:00001034       $unwind$ucl_crc32          000000018000b034     ucl_crc.obj
+ 0002:00001040       $chain$2$ucl_crc32         000000018000b040     ucl_crc.obj
+ 0002:00001058       $chain$3$ucl_crc32         000000018000b058     ucl_crc.obj
+ 0002:00001068       $unwind$_ucl_config_check  000000018000b068     ucl_init.obj
+ 0002:00001078       $chain$0$_ucl_config_check 000000018000b078     ucl_init.obj
+ 0002:0000108c       $chain$1$_ucl_config_check 000000018000b08c     ucl_init.obj
+ 0002:0000109c       $unwind$ptr_check          000000018000b09c     ucl_init.obj
+ 0002:000010b8       $xdatasym                  000000018000b0b8     MSVCRT:_amdsecgs_.obj
+ 0002:000010bc       $unwind$?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 000000018000b0bc     MSVCRT:dll_dllmain.obj
+ 0002:000010e8       $unwind$?dllmain_crt_process_detach@@YAH_N@Z 000000018000b0e8     MSVCRT:dll_dllmain.obj
+ 0002:00001110       $unwind$?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018000b110     MSVCRT:dll_dllmain.obj
+ 0002:00001110       $unwind$?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 000000018000b110     MSVCRT:dll_dllmain.obj
+ 0002:00001118       $unwind$?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000b118     MSVCRT:dll_dllmain.obj
+ 0002:00001140       $unwind$?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 000000018000b140     MSVCRT:dll_dllmain.obj
+ 0002:00001148       $unwind$__report_gsfailure 000000018000b148     MSVCRT:gs_report.obj
+ 0002:00001150       $unwind$capture_previous_context 000000018000b150     MSVCRT:gs_report.obj
+ 0002:0000115c       $unwind$__scrt_is_nonwritable_in_current_image 000000018000b15c     MSVCRT:utility.obj
+ 0002:0000117c       $unwind$__scrt_is_nonwritable_in_current_image$filt$0 000000018000b17c     MSVCRT:utility.obj
+ 0002:00001184       $unwind$__scrt_initialize_onexit_tables 000000018000b184     MSVCRT:utility.obj
+ 0002:00001190       $unwind$__GSHandlerCheck   000000018000b190     MSVCRT:_gshandler_.obj
+ 0002:00001190       $unwind$?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000b190     MSVCRT:dll_dllmain.obj
+ 0002:00001190       $unwind$DllMain            000000018000b190     MSVCRT:dll_dllmain_stub.obj
+ 0002:00001190       $unwind$atexit             000000018000b190     MSVCRT:utility.obj
+ 0002:00001190       $unwind$__scrt_dllmain_uninitialize_c 000000018000b190     MSVCRT:utility.obj
+ 0002:00001190       $unwind$__scrt_dllmain_crt_thread_detach 000000018000b190     MSVCRT:utility.obj
+ 0002:00001190       $unwind$__scrt_dllmain_before_initialize_c 000000018000b190     MSVCRT:utility.obj
+ 0002:00001190       $unwind$__scrt_dllmain_crt_thread_attach 000000018000b190     MSVCRT:utility.obj
+ 0002:00001190       $unwind$__scrt_acquire_startup_lock 000000018000b190     MSVCRT:utility.obj
+ 0002:00001190       $unwind$__scrt_dllmain_uninitialize_critical 000000018000b190     MSVCRT:utility.obj
+ 0002:00001190       $unwind$__scrt_initialize_default_local_stdio_options 000000018000b190     MSVCRT:default_local_stdio_options.obj
+ 0002:00001190       $unwind$__scrt_dllmain_after_initialize_c 000000018000b190     MSVCRT:utility.obj
+ 0002:00001198       $unwind$__security_init_cookie 000000018000b198     MSVCRT:gs_support.obj
+ 0002:000011a4       $unwind$__scrt_fastfail    000000018000b1a4     MSVCRT:utility_desktop.obj
+ 0002:000011b4       $unwind$_RTC_Initialize    000000018000b1b4     MSVCRT:_initsect_.obj
+ 0002:000011b4       $unwind$_RTC_Terminate     000000018000b1b4     MSVCRT:_initsect_.obj
+ 0002:000011b4       $unwind$code_match         000000018000b1b4     n2b_99.obj
+ 0002:000011b4       $unwind$_DllMainCRTStartup 000000018000b1b4     MSVCRT:dll_dllmain.obj
+ 0002:000011c4       $unwind$__isa_available_init 000000018000b1c4     MSVCRT:_cpu_disp_.obj
+ 0002:000011d8       $xdatasym                  000000018000b1d8     MSVCRT:_guard_dispatch_.obj
+ 0002:000011e0       .edata                     000000018000b1e0     ucl.exp
+ 0002:00001208       rgpv                       000000018000b208     ucl.exp
+ 0002:000012dc       rgszName                   000000018000b2dc     ucl.exp
+ 0002:000013b0       rgwOrd                     000000018000b3b0     ucl.exp
+ 0002:0000141a       szName                     000000018000b41a     ucl.exp
+ 0002:00001422       $N00001                    000000018000b422     ucl.exp
+ 0002:00001432       $N00002                    000000018000b432     ucl.exp
+ 0002:0000143e       $N00003                    000000018000b43e     ucl.exp
+ 0002:0000144f       $N00004                    000000018000b44f     ucl.exp
+ 0002:00001461       $N00005                    000000018000b461     ucl.exp
+ 0002:00001473       $N00006                    000000018000b473     ucl.exp
+ 0002:00001487       $N00007                    000000018000b487     ucl.exp
+ 0002:00001493       $N00008                    000000018000b493     ucl.exp
+ 0002:0000149d       $N00009                    000000018000b49d     ucl.exp
+ 0002:000014a8       $N00010                    000000018000b4a8     ucl.exp
+ 0002:000014b6       $N00011                    000000018000b4b6     ucl.exp
+ 0002:000014c0       $N00012                    000000018000b4c0     ucl.exp
+ 0002:000014c9       $N00013                    000000018000b4c9     ucl.exp
+ 0002:000014dd       $N00014                    000000018000b4dd     ucl.exp
+ 0002:000014f2       $N00015                    000000018000b4f2     ucl.exp
+ 0002:000014fd       $N00016                    000000018000b4fd     ucl.exp
+ 0002:00001508       $N00017                    000000018000b508     ucl.exp
+ 0002:00001513       $N00018                    000000018000b513     ucl.exp
+ 0002:0000151f       $N00019                    000000018000b51f     ucl.exp
+ 0002:0000152a       $N00020                    000000018000b52a     ucl.exp
+ 0002:00001540       $N00021                    000000018000b540     ucl.exp
+ 0002:00001557       $N00022                    000000018000b557     ucl.exp
+ 0002:00001571       $N00023                    000000018000b571     ucl.exp
+ 0002:0000158b       $N00024                    000000018000b58b     ucl.exp
+ 0002:000015a7       $N00025                    000000018000b5a7     ucl.exp
+ 0002:000015c6       $N00026                    000000018000b5c6     ucl.exp
+ 0002:000015e5       $N00027                    000000018000b5e5     ucl.exp
+ 0002:000015fe       $N00028                    000000018000b5fe     ucl.exp
+ 0002:0000161a       $N00029                    000000018000b61a     ucl.exp
+ 0002:00001636       $N00030                    000000018000b636     ucl.exp
+ 0002:0000164c       $N00031                    000000018000b64c     ucl.exp
+ 0002:00001663       $N00032                    000000018000b663     ucl.exp
+ 0002:0000167d       $N00033                    000000018000b67d     ucl.exp
+ 0002:00001697       $N00034                    000000018000b697     ucl.exp
+ 0002:000016b3       $N00035                    000000018000b6b3     ucl.exp
+ 0002:000016d2       $N00036                    000000018000b6d2     ucl.exp
+ 0002:000016f1       $N00037                    000000018000b6f1     ucl.exp
+ 0002:0000170a       $N00038                    000000018000b70a     ucl.exp
+ 0002:00001726       $N00039                    000000018000b726     ucl.exp
+ 0002:00001742       $N00040                    000000018000b742     ucl.exp
+ 0002:00001758       $N00041                    000000018000b758     ucl.exp
+ 0002:0000176f       $N00042                    000000018000b76f     ucl.exp
+ 0002:00001789       $N00043                    000000018000b789     ucl.exp
+ 0002:000017a3       $N00044                    000000018000b7a3     ucl.exp
+ 0002:000017bf       $N00045                    000000018000b7bf     ucl.exp
+ 0002:000017de       $N00046                    000000018000b7de     ucl.exp
+ 0002:000017fd       $N00047                    000000018000b7fd     ucl.exp
+ 0002:00001816       $N00048                    000000018000b816     ucl.exp
+ 0002:00001832       $N00049                    000000018000b832     ucl.exp
+ 0002:0000184e       $N00050                    000000018000b84e     ucl.exp
+ 0002:00001863       $N00051                    000000018000b863     ucl.exp
+ 0002:0000186f       $N00052                    000000018000b86f     ucl.exp
+ 0002:00001880       $N00053                    000000018000b880     ucl.exp
+ 0002:00001b86       .idata$6                   000000018000bb86     kernel32:KERNEL32.dll
+ 0002:00001bf4       .idata$6                   000000018000bbf4     vcruntime:VCRUNTIME140.dll
+ 0002:00001ce8       .idata$6                   000000018000bce8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00001d08       .idata$6                   000000018000bd08     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0003:00000000       ucl_malloc_hook            000000018000c000     alloc.obj
+ 0003:00000008       ucl_free_hook              000000018000c008     alloc.obj
+ 0003:00000010       ?xn@?L@??_ucl_config_check@@9@9 000000018000c010     ucl_init.obj
+ 0003:00000068       ?x@?L@??_ucl_config_check@@9@9 000000018000c068     ucl_init.obj
+ 0003:00000074       ?__proc_attached@@3HA      000000018000c074     MSVCRT:dll_dllmain.obj
+ 0003:00000080       GS_ExceptionRecord         000000018000c080     MSVCRT:gs_report.obj
+ 0003:00000120       GS_ContextRecord           000000018000c120     MSVCRT:gs_report.obj
+ 0003:00000600       ?module_local_atexit_table@@3U_onexit_table_t@@A 000000018000c600     MSVCRT:utility.obj
+ 0003:00000618       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 000000018000c618     MSVCRT:utility.obj
+ 0003:00000630       ?is_initialized_as_dll@@3_NA 000000018000c630     MSVCRT:utility.obj
+ 0004:00000000       $pdata$code_match          000000018000d000     n2b_99.obj
+ 0004:0000000c       $pdata$swd_findbest        000000018000d00c     n2d_99.obj
+ 0004:0000000c       $pdata$swd_findbest        000000018000d00c     n2b_99.obj
+ 0004:0000000c       $pdata$swd_findbest        000000018000d00c     n2e_99.obj
+ 0004:00000018       $pdata$swd_insertdict      000000018000d018     n2b_99.obj
+ 0004:00000018       $pdata$swd_insertdict      000000018000d018     n2e_99.obj
+ 0004:00000018       $pdata$swd_insertdict      000000018000d018     n2d_99.obj
+ 0004:00000024       $pdata$ucl_nrv2b_99_compress 000000018000d024     n2b_99.obj
+ 0004:00000030       $pdata$0$ucl_nrv2b_99_compress 000000018000d030     n2b_99.obj
+ 0004:0000003c       $pdata$2$ucl_nrv2b_99_compress 000000018000d03c     n2b_99.obj
+ 0004:00000048       $pdata$3$ucl_nrv2b_99_compress 000000018000d048     n2b_99.obj
+ 0004:00000054       $pdata$4$ucl_nrv2b_99_compress 000000018000d054     n2b_99.obj
+ 0004:00000060       $pdata$5$ucl_nrv2b_99_compress 000000018000d060     n2b_99.obj
+ 0004:0000006c       $pdata$6$ucl_nrv2b_99_compress 000000018000d06c     n2b_99.obj
+ 0004:00000078       $pdata$7$ucl_nrv2b_99_compress 000000018000d078     n2b_99.obj
+ 0004:00000084       $pdata$8$ucl_nrv2b_99_compress 000000018000d084     n2b_99.obj
+ 0004:00000090       $pdata$ucl_nrv2b_decompress_8 000000018000d090     n2b_d.obj
+ 0004:0000009c       $pdata$ucl_nrv2b_decompress_le16 000000018000d09c     n2b_d.obj
+ 0004:000000a8       $pdata$ucl_nrv2b_decompress_le32 000000018000d0a8     n2b_d.obj
+ 0004:000000b4       $pdata$ucl_nrv2b_decompress_safe_8 000000018000d0b4     n2b_ds.obj
+ 0004:000000c0       $pdata$ucl_nrv2b_decompress_safe_le16 000000018000d0c0     n2b_ds.obj
+ 0004:000000cc       $pdata$ucl_nrv2b_decompress_safe_le32 000000018000d0cc     n2b_ds.obj
+ 0004:000000d8       $pdata$ucl_nrv2b_test_overlap_8 000000018000d0d8     n2b_to.obj
+ 0004:000000e4       $pdata$ucl_nrv2b_test_overlap_le16 000000018000d0e4     n2b_to.obj
+ 0004:000000f0       $pdata$ucl_nrv2b_test_overlap_le32 000000018000d0f0     n2b_to.obj
+ 0004:000000fc       $pdata$code_match          000000018000d0fc     n2d_99.obj
+ 0004:00000108       $pdata$code_prefix_ss11    000000018000d108     n2d_99.obj
+ 0004:00000108       $pdata$code_prefix_ss11    000000018000d108     n2b_99.obj
+ 0004:00000108       $pdata$code_prefix_ss11    000000018000d108     n2e_99.obj
+ 0004:00000114       $pdata$code_prefix_ss12    000000018000d114     n2e_99.obj
+ 0004:00000114       $pdata$code_prefix_ss12    000000018000d114     n2d_99.obj
+ 0004:00000120       $pdata$find_match          000000018000d120     n2e_99.obj
+ 0004:00000120       $pdata$find_match          000000018000d120     n2b_99.obj
+ 0004:00000120       $pdata$find_match          000000018000d120     n2d_99.obj
+ 0004:0000012c       $pdata$swd_exit            000000018000d12c     n2b_99.obj
+ 0004:0000012c       $pdata$swd_exit            000000018000d12c     n2d_99.obj
+ 0004:0000012c       $pdata$swd_exit            000000018000d12c     n2e_99.obj
+ 0004:00000138       $pdata$swd_search          000000018000d138     n2b_99.obj
+ 0004:00000138       $pdata$swd_search          000000018000d138     n2d_99.obj
+ 0004:00000138       $pdata$swd_search          000000018000d138     n2e_99.obj
+ 0004:00000144       $pdata$ucl_nrv2d_99_compress 000000018000d144     n2d_99.obj
+ 0004:00000150       $pdata$0$ucl_nrv2d_99_compress 000000018000d150     n2d_99.obj
+ 0004:0000015c       $pdata$2$ucl_nrv2d_99_compress 000000018000d15c     n2d_99.obj
+ 0004:00000168       $pdata$3$ucl_nrv2d_99_compress 000000018000d168     n2d_99.obj
+ 0004:00000174       $pdata$4$ucl_nrv2d_99_compress 000000018000d174     n2d_99.obj
+ 0004:00000180       $pdata$5$ucl_nrv2d_99_compress 000000018000d180     n2d_99.obj
+ 0004:0000018c       $pdata$6$ucl_nrv2d_99_compress 000000018000d18c     n2d_99.obj
+ 0004:00000198       $pdata$7$ucl_nrv2d_99_compress 000000018000d198     n2d_99.obj
+ 0004:000001a4       $pdata$8$ucl_nrv2d_99_compress 000000018000d1a4     n2d_99.obj
+ 0004:000001b0       $pdata$ucl_nrv2d_decompress_8 000000018000d1b0     n2d_d.obj
+ 0004:000001bc       $pdata$ucl_nrv2d_decompress_le16 000000018000d1bc     n2d_d.obj
+ 0004:000001c8       $pdata$ucl_nrv2d_decompress_le32 000000018000d1c8     n2d_d.obj
+ 0004:000001d4       $pdata$ucl_nrv2d_decompress_safe_8 000000018000d1d4     n2d_ds.obj
+ 0004:000001e0       $pdata$ucl_nrv2d_decompress_safe_le16 000000018000d1e0     n2d_ds.obj
+ 0004:000001ec       $pdata$ucl_nrv2d_decompress_safe_le32 000000018000d1ec     n2d_ds.obj
+ 0004:000001f8       $pdata$ucl_nrv2d_test_overlap_8 000000018000d1f8     n2d_to.obj
+ 0004:00000204       $pdata$ucl_nrv2d_test_overlap_le16 000000018000d204     n2d_to.obj
+ 0004:00000210       $pdata$ucl_nrv2d_test_overlap_le32 000000018000d210     n2d_to.obj
+ 0004:0000021c       $pdata$code_match          000000018000d21c     n2e_99.obj
+ 0004:00000228       $pdata$swd_accept          000000018000d228     n2d_99.obj
+ 0004:00000228       $pdata$swd_accept          000000018000d228     n2b_99.obj
+ 0004:00000228       $pdata$swd_accept          000000018000d228     n2e_99.obj
+ 0004:00000234       $pdata$0$swd_accept        000000018000d234     n2e_99.obj
+ 0004:00000234       $pdata$0$swd_accept        000000018000d234     n2b_99.obj
+ 0004:00000234       $pdata$0$swd_accept        000000018000d234     n2d_99.obj
+ 0004:00000240       $pdata$1$swd_accept        000000018000d240     n2d_99.obj
+ 0004:00000240       $pdata$1$swd_accept        000000018000d240     n2e_99.obj
+ 0004:00000240       $pdata$1$swd_accept        000000018000d240     n2b_99.obj
+ 0004:0000024c       $pdata$swd_init            000000018000d24c     n2d_99.obj
+ 0004:0000024c       $pdata$swd_init            000000018000d24c     n2b_99.obj
+ 0004:0000024c       $pdata$swd_init            000000018000d24c     n2e_99.obj
+ 0004:00000258       $pdata$swd_remove_node     000000018000d258     n2b_99.obj
+ 0004:00000258       $pdata$swd_remove_node     000000018000d258     n2d_99.obj
+ 0004:00000258       $pdata$swd_remove_node     000000018000d258     n2e_99.obj
+ 0004:00000264       $pdata$ucl_nrv2e_99_compress 000000018000d264     n2e_99.obj
+ 0004:00000270       $pdata$0$ucl_nrv2e_99_compress 000000018000d270     n2e_99.obj
+ 0004:0000027c       $pdata$2$ucl_nrv2e_99_compress 000000018000d27c     n2e_99.obj
+ 0004:00000288       $pdata$3$ucl_nrv2e_99_compress 000000018000d288     n2e_99.obj
+ 0004:00000294       $pdata$4$ucl_nrv2e_99_compress 000000018000d294     n2e_99.obj
+ 0004:000002a0       $pdata$5$ucl_nrv2e_99_compress 000000018000d2a0     n2e_99.obj
+ 0004:000002ac       $pdata$6$ucl_nrv2e_99_compress 000000018000d2ac     n2e_99.obj
+ 0004:000002b8       $pdata$7$ucl_nrv2e_99_compress 000000018000d2b8     n2e_99.obj
+ 0004:000002c4       $pdata$8$ucl_nrv2e_99_compress 000000018000d2c4     n2e_99.obj
+ 0004:000002d0       $pdata$ucl_nrv2e_decompress_8 000000018000d2d0     n2e_d.obj
+ 0004:000002dc       $pdata$ucl_nrv2e_decompress_le16 000000018000d2dc     n2e_d.obj
+ 0004:000002e8       $pdata$ucl_nrv2e_decompress_le32 000000018000d2e8     n2e_d.obj
+ 0004:000002f4       $pdata$ucl_nrv2e_decompress_safe_8 000000018000d2f4     n2e_ds.obj
+ 0004:00000300       $pdata$ucl_nrv2e_decompress_safe_le16 000000018000d300     n2e_ds.obj
+ 0004:0000030c       $pdata$ucl_nrv2e_decompress_safe_le32 000000018000d30c     n2e_ds.obj
+ 0004:00000318       $pdata$ucl_nrv2e_test_overlap_8 000000018000d318     n2e_to.obj
+ 0004:00000324       $pdata$ucl_nrv2e_test_overlap_le16 000000018000d324     n2e_to.obj
+ 0004:00000330       $pdata$ucl_nrv2e_test_overlap_le32 000000018000d330     n2e_to.obj
+ 0004:0000033c       $pdata$ucl_crc32           000000018000d33c     ucl_crc.obj
+ 0004:00000348       $pdata$2$ucl_crc32         000000018000d348     ucl_crc.obj
+ 0004:00000354       $pdata$3$ucl_crc32         000000018000d354     ucl_crc.obj
+ 0004:00000360       $pdata$_ucl_config_check   000000018000d360     ucl_init.obj
+ 0004:0000036c       $pdata$0$_ucl_config_check 000000018000d36c     ucl_init.obj
+ 0004:00000378       $pdata$1$_ucl_config_check 000000018000d378     ucl_init.obj
+ 0004:00000384       $pdata$ptr_check           000000018000d384     ucl_init.obj
+ 0004:00000390       $pdata$ucl_memcpy          000000018000d390     ucl_str.obj
+ 0004:0000039c       $pdata$ucl_memset          000000018000d39c     ucl_str.obj
+ 0004:000003a8       $pdata$__GSHandlerCheck    000000018000d3a8     MSVCRT:_gshandler_.obj
+ 0004:000003b4       $pdata$__GSHandlerCheckCommon 000000018000d3b4     MSVCRT:_gshandler_.obj
+ 0004:000003cc       $pdata$?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000d3cc     MSVCRT:dll_dllmain.obj
+ 0004:000003d8       $pdata$?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 000000018000d3d8     MSVCRT:dll_dllmain.obj
+ 0004:000003e4       $pdata$?dllmain_crt_process_detach@@YAH_N@Z 000000018000d3e4     MSVCRT:dll_dllmain.obj
+ 0004:000003f0       $pdata$?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000d3f0     MSVCRT:dll_dllmain.obj
+ 0004:000003fc       $pdata$?dllmain_raw@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000d3fc     MSVCRT:dll_dllmain.obj
+ 0004:00000408       $pdata$_DllMainCRTStartup  000000018000d408     MSVCRT:dll_dllmain.obj
+ 0004:00000414       $pdata$__raise_securityfailure 000000018000d414     MSVCRT:gs_report.obj
+ 0004:00000420       $pdata$__report_gsfailure  000000018000d420     MSVCRT:gs_report.obj
+ 0004:0000042c       $pdata$capture_previous_context 000000018000d42c     MSVCRT:gs_report.obj
+ 0004:00000438       $pdata$__scrt_acquire_startup_lock 000000018000d438     MSVCRT:utility.obj
+ 0004:00000444       $pdata$__scrt_dllmain_after_initialize_c 000000018000d444     MSVCRT:utility.obj
+ 0004:00000450       $pdata$__scrt_dllmain_before_initialize_c 000000018000d450     MSVCRT:utility.obj
+ 0004:0000045c       $pdata$__scrt_dllmain_crt_thread_attach 000000018000d45c     MSVCRT:utility.obj
+ 0004:00000468       $pdata$__scrt_dllmain_crt_thread_detach 000000018000d468     MSVCRT:utility.obj
+ 0004:00000474       $pdata$__scrt_dllmain_exception_filter 000000018000d474     MSVCRT:utility.obj
+ 0004:00000480       $pdata$__scrt_dllmain_uninitialize_c 000000018000d480     MSVCRT:utility.obj
+ 0004:0000048c       $pdata$__scrt_dllmain_uninitialize_critical 000000018000d48c     MSVCRT:utility.obj
+ 0004:00000498       $pdata$__scrt_initialize_crt 000000018000d498     MSVCRT:utility.obj
+ 0004:000004a4       $pdata$__scrt_initialize_onexit_tables 000000018000d4a4     MSVCRT:utility.obj
+ 0004:000004b0       $pdata$__scrt_is_nonwritable_in_current_image 000000018000d4b0     MSVCRT:utility.obj
+ 0004:000004bc       $pdata$__scrt_release_startup_lock 000000018000d4bc     MSVCRT:utility.obj
+ 0004:000004c8       $pdata$__scrt_uninitialize_crt 000000018000d4c8     MSVCRT:utility.obj
+ 0004:000004d4       $pdata$_onexit             000000018000d4d4     MSVCRT:utility.obj
+ 0004:000004e0       $pdata$atexit              000000018000d4e0     MSVCRT:utility.obj
+ 0004:000004ec       $pdata$__security_init_cookie 000000018000d4ec     MSVCRT:gs_support.obj
+ 0004:000004f8       $pdata$DllMain             000000018000d4f8     MSVCRT:dll_dllmain_stub.obj
+ 0004:00000504       $pdata$__scrt_initialize_default_local_stdio_options 000000018000d504     MSVCRT:default_local_stdio_options.obj
+ 0004:00000510       $pdata$__scrt_fastfail     000000018000d510     MSVCRT:utility_desktop.obj
+ 0004:0000051c       $pdata$_RTC_Initialize     000000018000d51c     MSVCRT:_initsect_.obj
+ 0004:00000528       $pdata$_RTC_Terminate      000000018000d528     MSVCRT:_initsect_.obj
+ 0004:00000534       $pdata$__isa_available_init 000000018000d534     MSVCRT:_cpu_disp_.obj
+ 0004:0000054c       $pdata$?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 000000018000d54c     MSVCRT:dll_dllmain.obj
+ 0004:00000558       $pdata$?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018000d558     MSVCRT:dll_dllmain.obj
+ 0004:00000564       $pdata$?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 000000018000d564     MSVCRT:dll_dllmain.obj
+ 0004:00000570       $pdata$__scrt_is_nonwritable_in_current_image$filt$0 000000018000d570     MSVCRT:utility.obj
+ 0005:00000000       __guard_fids_?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 000000018000e000     MSVCRT:dll_dllmain.obj
+ 0005:00000008       __guard_fids_?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000e008     MSVCRT:dll_dllmain.obj
+ 0005:0000000c       __guard_fids__             000000018000e00c     MSVCRT:guard_support.obj

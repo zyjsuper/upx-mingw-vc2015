@@ -1,0 +1,257 @@
+c_file.o: c_file.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h
+c_init.o: c_init.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h
+c_none.o: c_none.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h
+c_screen.o: c_screen.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h screen.h
+compress.o: compress.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h compress.h \
+ mem.h
+compress_lzma.o: compress_lzma.cpp conf.h version.h miniacc.h snprintf.h \
+ stdcxx.h options.h except.h bele.h bele_policy.h util.h console.h \
+ compress.h mem.h ../src/lzma-sdk/C/Common/MyInitGuid.h \
+ ../src/lzma-sdk/C/Common/MyGuidDef.h ../src/lzma-sdk/C/Common/Types.h \
+ ../src/lzma-sdk/C/7zip/Compress/LZMA/LZMAEncoder.h \
+ D:/Github/upx/src/lzma-sdk/C/Common/MyCom.h \
+ D:/Github/upx/src/lzma-sdk/C/Common/MyWindows.h \
+ D:/Github/upx/src/lzma-sdk/C/Common/MyGuidDef.h \
+ D:/Github/upx/src/lzma-sdk/C/Common/Alloc.h \
+ D:/Github/upx/src/lzma-sdk/C/7zip/ICoder.h \
+ D:/Github/upx/src/lzma-sdk/C/7zip/IStream.h \
+ D:/Github/upx/src/lzma-sdk/C/Common/MyUnknown.h \
+ D:/Github/upx/src/lzma-sdk/C/Common/Types.h \
+ ../src/lzma-sdk/C/7zip/Compress/LZMA/../LZ/IMatchFinder.h \
+ ../src/lzma-sdk/C/7zip/Compress/LZMA/../RangeCoder/RangeCoderBitTree.h \
+ ../src/lzma-sdk/C/7zip/Compress/LZMA/../RangeCoder/RangeCoderBit.h \
+ ../src/lzma-sdk/C/7zip/Compress/LZMA/../RangeCoder/RangeCoder.h \
+ D:/Github/upx/src/lzma-sdk/C/7zip/Common/InBuffer.h \
+ D:/Github/upx/src/lzma-sdk/C/7zip/IStream.h \
+ D:/Github/upx/src/lzma-sdk/C/Common/MyCom.h \
+ D:/Github/upx/src/lzma-sdk/C/7zip/Common/OutBuffer.h \
+ ../src/lzma-sdk/C/7zip/Compress/LZMA/../RangeCoder/RangeCoderOpt.h \
+ ../src/lzma-sdk/C/7zip/Compress/LZMA/LZMA.h \
+ ../src/lzma-sdk/C/Common/Alloc.cpp ../src/lzma-sdk/C/Common/StdAfx.h \
+ ../src/lzma-sdk/C/Common/NewHandler.h ../src/lzma-sdk/C/Common/Alloc.h \
+ ../src/lzma-sdk/C/Common/CRC.cpp ../src/lzma-sdk/C/Common/CRC.h \
+ ../src/lzma-sdk/C/7zip/Common/OutBuffer.cpp \
+ ../src/lzma-sdk/C/7zip/Common/StdAfx.h \
+ ../src/lzma-sdk/C/7zip/Common/OutBuffer.h \
+ D:/Github/upx/src/lzma-sdk/C/Common/Alloc.h \
+ ../src/lzma-sdk/C/7zip/Common/StreamUtils.cpp \
+ D:/Github/upx/src/lzma-sdk/C/Common/MyCom.h \
+ ../src/lzma-sdk/C/7zip/Common/StreamUtils.h \
+ D:/Github/upx/src/lzma-sdk/C/7zip/IStream.h \
+ ../src/lzma-sdk/C/7zip/Compress/LZ/LZInWindow.cpp \
+ ../src/lzma-sdk/C/7zip/Compress/LZ/StdAfx.h \
+ ../src/lzma-sdk/C/7zip/Compress/LZ/LZInWindow.h \
+ D:/Github/upx/src/lzma-sdk/C/7zip/IStream.h \
+ D:/Github/upx/src/lzma-sdk/C/Common/MyCom.h \
+ D:/Github/upx/src/lzma-sdk/C/Common/Alloc.h \
+ ../src/lzma-sdk/C/7zip/Compress/LZMA/LZMAEncoder.cpp \
+ ../src/lzma-sdk/C/7zip/Compress/LZMA/StdAfx.h \
+ D:/Github/upx/src/lzma-sdk/C/Common/Defs.h \
+ D:/Github/upx/src/lzma-sdk/C/7zip/Common/StreamUtils.h \
+ ../src/lzma-sdk/C/7zip/Compress/LZMA/LZMAEncoder.h \
+ ../src/lzma-sdk/C/7zip/Compress/LZMA/../LZ/BinTree/BinTree2.h \
+ ../src/lzma-sdk/C/7zip/Compress/LZMA/../LZ/BinTree/BinTreeMain.h \
+ D:/Github/upx/src/lzma-sdk/C/Common/Defs.h \
+ D:/Github/upx/src/lzma-sdk/C/Common/CRC.h \
+ D:/Github/upx/src/lzma-sdk/C/Common/Alloc.h \
+ ../src/lzma-sdk/C/7zip/Compress/LZMA/../LZ/BinTree/BinTree.h \
+ D:/Github/upx/src/lzma-sdk/C/7zip/Compress/LZ/LZInWindow.h \
+ D:/Github/upx/src/lzma-sdk/C/7zip/Compress/LZ/IMatchFinder.h \
+ ../src/lzma-sdk/C/7zip/Compress/LZMA/../LZ/BinTree/BinTree3.h \
+ ../src/lzma-sdk/C/7zip/Compress/LZMA/../LZ/BinTree/BinTree4.h \
+ ../src/lzma-sdk/C/7zip/Compress/LZMA/../LZ/HashChain/HC4.h \
+ ../src/lzma-sdk/C/7zip/Compress/LZMA/../LZ/HashChain/HCMain.h \
+ D:/Github/upx/src/lzma-sdk/C/7zip/Compress/LZ/BinTree/BinTreeMain.h \
+ D:/Github/upx/src/lzma-sdk/C/Common/Defs.h \
+ D:/Github/upx/src/lzma-sdk/C/Common/CRC.h \
+ D:/Github/upx/src/lzma-sdk/C/Common/Alloc.h \
+ D:/Github/upx/src/lzma-sdk/C/7zip/Compress/LZ/BinTree/BinTree.h \
+ D:/Github/upx/src/lzma-sdk/C/7zip/Compress/LZ/LZInWindow.h \
+ D:/Github/upx/src/lzma-sdk/C/7zip/Compress/LZ/IMatchFinder.h \
+ ../src/lzma-sdk/C/7zip/Compress/RangeCoder/RangeCoderBit.cpp \
+ ../src/lzma-sdk/C/7zip/Compress/RangeCoder/StdAfx.h \
+ ../src/lzma-sdk/C/7zip/Compress/RangeCoder/RangeCoderBit.h \
+ ../src/lzma-sdk/C/7zip/Compress/LZMA_C/LzmaDecode.h \
+ ../src/lzma-sdk/C/7zip/Compress/LZMA_C/LzmaTypes.h \
+ ../src/lzma-sdk/C/7zip/Compress/LZMA_C/LzmaDecode.c \
+ ../src/lzma-sdk/C/7zip/Compress/LZMA_C/LzmaDecode.h
+compress_ucl.o: compress_ucl.cpp conf.h version.h miniacc.h snprintf.h \
+ stdcxx.h options.h except.h bele.h bele_policy.h util.h console.h \
+ compress.h
+compress_zlib.o: compress_zlib.cpp conf.h version.h miniacc.h snprintf.h \
+ stdcxx.h options.h except.h bele.h bele_policy.h util.h console.h \
+ compress.h mem.h
+except.o: except.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h
+file.o: file.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h options.h \
+ except.h bele.h bele_policy.h util.h console.h file.h mem.h
+filter.o: filter.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h filter.h file.h
+filteri.o: filteri.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h filter.h \
+ filter/getcto.h filter/ct.h filter/sw.h filter/ctsw.h filter/sub8.h \
+ filter/sub.hh filter/sub16.h filter/sub32.h filter/cto.h filter/ctoj.h \
+ filter/ctok.h filter/ctojr.h filter/ppcbxx.h
+help.o: help.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h options.h \
+ except.h bele.h bele_policy.h util.h console.h compress.h packmast.h \
+ packer.h mem.h
+lefile.o: lefile.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h file.h mem.h \
+ lefile.h
+linker.o: linker.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h linker.h
+main.o: main.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h options.h \
+ except.h bele.h bele_policy.h util.h console.h compress.h file.h \
+ packer.h mem.h p_elf.h p_elf_enum.h
+mem.o: mem.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h options.h \
+ except.h bele.h bele_policy.h util.h console.h mem.h
+msg.o: msg.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h options.h \
+ except.h bele.h bele_policy.h util.h console.h
+p_armpe.o: p_armpe.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h file.h filter.h \
+ packer.h mem.h pefile.h p_armpe.h linker.h stub/arm.v4a-wince.pe.h \
+ stub/arm.v4t-wince.pe.h
+p_com.o: p_com.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h file.h filter.h \
+ packer.h mem.h p_com.h linker.h stub/i086-dos16.com.h
+p_djgpp2.o: p_djgpp2.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h file.h filter.h \
+ packer.h mem.h p_djgpp2.h linker.h stub/i386-dos32.djgpp2.h \
+ stub/i386-dos32.djgpp2-stubify.h
+p_exe.o: p_exe.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h file.h filter.h \
+ packer.h mem.h p_exe.h linker.h stub/i086-dos16.exe.h
+p_lx_elf.o: p_lx_elf.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h file.h filter.h \
+ linker.h packer.h mem.h p_elf.h p_elf_enum.h p_unix.h p_lx_exc.h \
+ p_lx_elf.h ui.h stub/i386-linux.elf-entry.h stub/i386-linux.elf-fold.h \
+ stub/i386-linux.shlib-init.h stub/i386-bsd.elf-entry.h \
+ stub/i386-bsd.elf-fold.h stub/i386-netbsd.elf-entry.h \
+ stub/i386-netbsd.elf-fold.h stub/i386-openbsd.elf-fold.h \
+ stub/arm.v5a-linux.elf-entry.h stub/arm.v5a-linux.elf-fold.h \
+ stub/arm.v5t-linux.shlib-init.h stub/arm.v4a-linux.elf-entry.h \
+ stub/arm.v4a-linux.elf-fold.h stub/armeb.v4a-linux.elf-entry.h \
+ stub/armeb.v4a-linux.elf-fold.h stub/mipsel.r3000-linux.elf-entry.h \
+ stub/mipsel.r3000-linux.elf-fold.h stub/mips.r3000-linux.elf-entry.h \
+ stub/mips.r3000-linux.elf-fold.h stub/powerpc-linux.elf-entry.h \
+ stub/powerpc-linux.elf-fold.h stub/powerpc64le-linux.elf-entry.h \
+ stub/powerpc64le-linux.elf-fold.h stub/amd64-linux.elf-entry.h \
+ stub/amd64-linux.elf-fold.h stub/amd64-linux.shlib-init.h \
+ stub/arm64-linux.elf-entry.h stub/arm64-linux.elf-fold.h \
+ stub/arm64-linux.shlib-init.h
+p_lx_exc.o: p_lx_exc.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h file.h filter.h \
+ linker.h packer.h mem.h p_elf.h p_elf_enum.h p_unix.h p_lx_exc.h \
+ stub/i386-linux.elf.execve-entry.h stub/i386-linux.elf.execve-fold.h \
+ stub/i386-bsd.elf.execve-entry.h stub/i386-bsd.elf.execve-fold.h
+p_lx_interp.o: p_lx_interp.cpp conf.h version.h miniacc.h snprintf.h \
+ stdcxx.h options.h except.h bele.h bele_policy.h util.h console.h file.h \
+ filter.h linker.h packer.h mem.h p_elf.h p_elf_enum.h p_unix.h \
+ p_lx_exc.h p_lx_elf.h p_lx_interp.h stub/i386-linux.elf.interp-entry.h \
+ stub/i386-linux.elf.interp-fold.h
+p_lx_sh.o: p_lx_sh.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h file.h filter.h \
+ packer.h mem.h p_elf.h p_elf_enum.h p_unix.h p_lx_exc.h p_lx_sh.h \
+ stub/i386-linux.elf.shell-entry.h stub/i386-linux.elf.shell-fold.h
+p_mach.o: p_mach.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h file.h filter.h \
+ linker.h packer.h mem.h p_mach.h p_mach_enum.h p_unix.h ui.h \
+ stub/i386-darwin.macho-entry.h stub/i386-darwin.macho-fold.h \
+ stub/i386-darwin.macho-upxmain.h stub/i386-darwin.dylib-entry.h \
+ stub/amd64-darwin.macho-entry.h stub/amd64-darwin.macho-fold.h \
+ stub/amd64-darwin.macho-upxmain.h stub/amd64-darwin.dylib-entry.h \
+ stub/arm.v5a-darwin.macho-entry.h stub/arm.v5a-darwin.macho-fold.h \
+ stub/arm64-darwin.macho-entry.h stub/arm64-darwin.macho-fold.h \
+ stub/powerpc-darwin.macho-entry.h stub/powerpc-darwin.macho-fold.h \
+ stub/powerpc-darwin.macho-upxmain.h stub/powerpc-darwin.dylib-entry.h \
+ stub/powerpc64le-darwin.macho-entry.h \
+ stub/powerpc64le-darwin.macho-fold.h \
+ stub/powerpc64le-darwin.dylib-entry.h
+p_ps1.o: p_ps1.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h file.h filter.h \
+ packer.h mem.h p_ps1.h linker.h stub/mipsel.r3000-ps1.h
+p_sys.o: p_sys.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h file.h filter.h \
+ packer.h mem.h p_com.h p_sys.h linker.h stub/i086-dos16.sys.h
+p_tmt.o: p_tmt.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h file.h filter.h \
+ packer.h mem.h p_tmt.h linker.h stub/i386-dos32.tmt.h
+p_tos.o: p_tos.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h file.h filter.h \
+ packer.h mem.h p_tos.h linker.h stub/m68k-atari.tos.h
+p_unix.o: p_unix.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h file.h filter.h \
+ packer.h mem.h p_unix.h p_elf.h p_elf_enum.h
+p_vmlinx.o: p_vmlinx.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h file.h filter.h \
+ packer.h mem.h p_vmlinx.h p_elf.h p_elf_enum.h linker.h \
+ stub/i386-linux.kernel.vmlinux.h stub/amd64-linux.kernel.vmlinux.h \
+ stub/arm.v5a-linux.kernel.vmlinux.h \
+ stub/armeb.v5a-linux.kernel.vmlinux.h \
+ stub/powerpc-linux.kernel.vmlinux.h \
+ stub/powerpc64le-linux.kernel.vmlinux.h \
+ stub/i386-linux.kernel.vmlinux-head.h \
+ stub/amd64-linux.kernel.vmlinux-head.h \
+ stub/arm.v5a-linux.kernel.vmlinux-head.h \
+ stub/armeb.v5a-linux.kernel.vmlinux-head.h \
+ stub/powerpc-linux.kernel.vmlinux-head.h \
+ stub/powerpc64le-linux.kernel.vmlinux-head.h
+p_vmlinz.o: p_vmlinz.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h p_elf.h \
+ p_elf_enum.h file.h filter.h packer.h mem.h p_vmlinz.h linker.h \
+ stub/i386-linux.kernel.vmlinuz.h stub/arm.v5a-linux.kernel.vmlinux.h \
+ stub/arm.v5a-linux.kernel.vmlinuz-head.h
+p_w32pe.o: p_w32pe.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h file.h filter.h \
+ packer.h mem.h pefile.h p_w32pe.h linker.h stub/i386-win32.pe.h
+p_w64pep.o: p_w64pep.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h file.h filter.h \
+ packer.h mem.h pefile.h p_w64pep.h linker.h stub/amd64-win64.pep.h
+p_wcle.o: p_wcle.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h file.h filter.h \
+ packer.h mem.h lefile.h p_wcle.h linker.h stub/i386-dos32.watcom.le.h
+packer.o: packer.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h file.h packer.h \
+ mem.h filter.h linker.h ui.h
+packer_c.o: packer_c.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h packer.h mem.h \
+ linker.h
+packer_f.o: packer_f.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h packer.h mem.h \
+ filter.h linker.h
+packhead.o: packhead.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h packer.h mem.h
+packmast.o: packmast.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h file.h \
+ packmast.h packer.h mem.h lefile.h pefile.h p_elf.h p_elf_enum.h p_com.h \
+ p_djgpp2.h p_exe.h p_unix.h p_lx_exc.h p_lx_elf.h p_lx_sh.h \
+ p_lx_interp.h p_sys.h p_tos.h p_wcle.h p_tmt.h p_w32pe.h p_w64pep.h \
+ p_vmlinz.h p_vmlinx.h p_ps1.h p_mach.h p_mach_enum.h p_armpe.h
+pefile.o: pefile.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h file.h filter.h \
+ packer.h mem.h pefile.h linker.h bptr.h
+s_djgpp2.o: s_djgpp2.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h
+s_object.o: s_object.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h screen.h
+s_vcsa.o: s_vcsa.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h
+s_win32.o: s_win32.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h screen.h
+snprintf.o: snprintf.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h
+stdcxx.o: stdcxx.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h \
+ options.h except.h bele.h bele_policy.h util.h console.h
+ui.o: ui.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h options.h \
+ except.h bele.h bele_policy.h util.h console.h file.h ui.h screen.h \
+ packer.h mem.h
+util.o: util.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h options.h \
+ except.h bele.h bele_policy.h util.h console.h
+work.o: work.cpp conf.h version.h miniacc.h snprintf.h stdcxx.h options.h \
+ except.h bele.h bele_policy.h util.h console.h file.h packmast.h \
+ packer.h mem.h ui.h
